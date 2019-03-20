@@ -792,8 +792,8 @@ body.page .main-navigation {
 
 @-webkit-keyframes anim1 {
   from {
-    -webkit-transform: translateY(-100vh) rotateX(0deg);
-            transform: translateY(-100vh) rotateX(0deg);
+    -webkit-transform: translateY(-100vh) rotateX(275deg);
+            transform: translateY(-100vh) rotateX(275deg);
     -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
             animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
   }
@@ -805,8 +805,8 @@ body.page .main-navigation {
 
 @keyframes anim1 {
   from {
-    -webkit-transform: translateY(-100vh) rotateX(0deg);
-            transform: translateY(-100vh) rotateX(0deg);
+    -webkit-transform: translateY(-100vh) rotateX(275deg);
+            transform: translateY(-100vh) rotateX(275deg);
     -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
             animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
   }
