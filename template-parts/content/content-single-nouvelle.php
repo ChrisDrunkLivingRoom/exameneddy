@@ -19,7 +19,7 @@
 	<?php endif; ?>
 
 	<div class="entry-content">
-		<div class="wp-block-media-text alignwide" style="grid-template-columns:auto">
+		<div class="wp-block-media-text alignwide" style="grid-template-columns:auto; background-color: wheat;">
 			<figure class="wp-block-media-text__media">
 			<?php
 				$image = get_field('mon_image');

@@ -707,19 +707,26 @@ body.page .main-navigation {
   background-color: #1c7742;
   color: #fff;
 }
+.liste-cours .session-1:hover, .liste-cours .session-2:hover, .liste-cours .session-3 {
+  color: black;
+}
+
+.liste-cours .session-5 {
+  color: white;
+}
 
 .liste-cours .session-2 {
-  background-color: #d3a145;
+  background-color: pink;
   color: #aaa;
 }
 
 .liste-cours .session-3 {
-  background-color: #2f2f97;
+  background-color:aliceblue;
   color: #fff;
 }
 
 .liste-cours .session-4 {
-  background-color: #948b36;
+  background-color: purple;
   color: #fff;
 }
 
