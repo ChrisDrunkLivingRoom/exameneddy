@@ -18,7 +18,7 @@
 //	the_post_thumbnail(''); 
 
 	$image = get_field('mon_image');
-	$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
+	$size = 'large'; // (thumbnail, medium, large, full or custom size)
 	if( $image ) {
 		echo wp_get_attachment_image( $image, $size );
 	}

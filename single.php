@@ -10,8 +10,9 @@
  */
 
 get_header();
-?>
 //////////////////////// single.php ///////////////////
+?>
+
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 
