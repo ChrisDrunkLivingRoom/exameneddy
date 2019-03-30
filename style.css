@@ -1091,6 +1091,10 @@ img {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.site-name, .imprint {
+  display:none;
+}
+
 
 /* content-area */
 /*# sourceMappingURL=style.css.map */

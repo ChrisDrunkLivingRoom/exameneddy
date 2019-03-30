@@ -44,4 +44,4 @@ endif;
 
 
 
-</main>< !-- #main --></section>< !-- #primary --><?php get_footer();
+</main></section><?php get_footer();
