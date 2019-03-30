@@ -1083,6 +1083,14 @@ background-color: #ffcaca;
   border-radius: 10px;
 }
 
+img {
+  border-radius: 10px;
+}
+
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 /* content-area */
 /*# sourceMappingURL=style.css.map */
