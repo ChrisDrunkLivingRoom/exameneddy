@@ -705,39 +705,44 @@ body.page .main-navigation {
 
 .liste-cours .session-1 {
   background-color: #1c7742;
-  color: #fff;
+  color: #fff;text-align: center;
 }
 .liste-cours .session-1:hover, .liste-cours .session-2:hover, .liste-cours .session-3 {
-  color: black;
+  color: black;text-align: center;
 }
 
 .liste-cours .session-5 {
-  color: white;
+  color: white;text-align: center;
 }
 
 .liste-cours .session-2 {
   background-color: pink;
+  text-align: center;
   color: #aaa;
 }
 
 .liste-cours .session-3 {
   background-color:aliceblue;
-  color: #fff;
+  color: #fff;text-align: center;
 }
 
 .liste-cours .session-4 {
   background-color: purple;
-  color: #fff;
+  color: #fff;text-align: center;
 }
 
+.liste-cours .session-4 a, .liste-cours .session-5 a {
+  color: #fff;text-align: center;
+}
+
+
 .liste-cours .session-5 {
-  background-color: #97173d;
-  color: #fff;
+  background-color: #97173d;text-align: center;
 }
 
 .liste-cours .session-6 {
   background-color: #251b04;
-  color: #fff;
+  color: #fff;text-align: center;
 }
 
 .liste-cours h3, .liste-cours h4 {
@@ -1057,6 +1062,10 @@ background-color: #ffcaca;
     transition: transform 1s;
   /*	overflow-x: hidden; */
   }
+}
+
+.liste-cours div {
+  border-radius: 10px;
 }
 
 
