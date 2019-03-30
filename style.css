@@ -955,7 +955,7 @@ body.page .main-navigation {
 background-color: #ffcaca;
 }
 
-.menu {
+.main-navigation {
   /*background-color: #732626;
   text-align: center;*/
   /*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
@@ -971,13 +971,12 @@ background-color: #ffcaca;
   padding: 1em 0em 1em 0em;
 }
 
-.menu a {
+.menu-item a {
   text-decoration: none;
   color: white;
-  border-bottom: 1px solid white;
   font-size: 1.5rem;
   padding: 0.5rem;
-  background-color: #732626;
+  background-color: #4fc0f9;
   border-radius: 5px;
 }
 
@@ -986,7 +985,7 @@ background-color: #ffcaca;
     display: none
   }
 
-  .menu {
+  .main-navigation {
     /*Propriété comme item flex - ne peut s'étirer en hauteur*/
     flex: 0 0 100%;
     border-radius: 10px;
@@ -997,13 +996,12 @@ background-color: #ffcaca;
     width: 95%;
   }
 
-  .menu a {
+  .menu-item a {
     border: none;
-    border-left: 1px solid white;
     /*Propriété comme item flex - peut s'étirer en largeur*/
     flex: 1 0 auto;
   }
-  .menu a:first-child {
+  .menu-item a:first-child {
     border-top: none;
   }
 }

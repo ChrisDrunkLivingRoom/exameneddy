@@ -20,11 +20,11 @@ get_header();
 		$args = array( 'post_type' => 'page',
 		'posts_per_page' => 1  );
 		$query = new WP_Query ( $args );
-		$id = 1; // add the ID of the page where the zero is
+		/*$id = 1; // add the ID of the page where the zero is
 		$p = get_page($id);
 		$t = $p->post_title;
 		echo '<h3>'.apply_filters('post_title', $t).'</h3>'; // the title is here wrapped with h3
-		echo apply_filters('the_content', $p->post_content);
+		echo apply_filters('the_content', $p->post_content);*/
 
 		/* Start the Loop  La première boucle */
 		while ( $query->have_posts() ) :
