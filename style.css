@@ -1030,7 +1030,7 @@ background-color: #ffcaca;
     flex: 0 0 100%;
     border-radius: 10px;
     /*Affichage du menu en rangée*/
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     margin: 1em 0em 1em 2.5%;
     width: 95%;

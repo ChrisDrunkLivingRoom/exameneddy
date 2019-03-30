@@ -1,3 +1,5 @@
+<input type="checkbox" id="chkBoutonBurger"/>
+<label for="chkBoutonBurger" class="boutonBurger"></label>
 <?php
 /**
  * Template part for displaying posts
