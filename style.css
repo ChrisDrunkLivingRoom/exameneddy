@@ -821,6 +821,17 @@ body.page .main-navigation {
   }
 }
 
+@keyframes example {
+  from {
+    -webkit-transform: RotateX(360deg);
+            transform: RotateY(360deg);
+  }
+  100% {
+    -webkit-transform: RotateX(0);
+            transform: RotateY(0);
+  }
+}
+
 @-webkit-keyframes anim2 {
   0% {
     -webkit-transform: rotateX(50deg);
@@ -950,6 +961,10 @@ body.page .main-navigation {
           animation: anim3 1s forwards, anim2 1s 1s forwards;
   -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
           animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
+}
+
+.anim4 {
+  animation: example 4s forwards;
 }
 
 .wp-block-media-text {
