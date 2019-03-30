@@ -955,6 +955,59 @@ body.page .main-navigation {
 background-color: #ffcaca;
 }
 
+.menu {
+  /*background-color: #732626;
+  text-align: center;*/
+  /*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
+  width: 100vw;
+  /*Propriété comme item flex - ne peut rétrécir*/
+  flex: 1 0 100%;
+  /*Contexte flex en colonne pour ses enfants*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden; overflow-y: auto;
+  border-radius: 5px;
+  padding: 1em 0em 1em 0em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: #732626;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .boutonBurger {
+    display: none
+  }
+
+  .menu {
+    /*Propriété comme item flex - ne peut s'étirer en hauteur*/
+    flex: 0 0 100%;
+    border-radius: 10px;
+    /*Affichage du menu en rangée*/
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em 0em 1em 2.5%;
+    width: 95%;
+  }
+
+  .menu a {
+    border: none;
+    border-left: 1px solid white;
+    /*Propriété comme item flex - peut s'étirer en largeur*/
+    flex: 1 0 auto;
+  }
+  .menu a:first-child {
+    border-top: none;
+  }
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
