@@ -1,3 +1,6 @@
+<input type="checkbox" id="chkBoutonBurger"/>
+<label for="chkBoutonBurger" class="boutonBurger"></label>
+
 <?php
 /**
  * The template for displaying archive pages
