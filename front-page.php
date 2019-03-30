@@ -1,3 +1,5 @@
+<input type="checkbox" id="chkBoutonBurger"/>
+<label for="chkBoutonBurger" class="boutonBurger"></label>
 <?php
 /**
  * The template for displaying all single posts
@@ -13,8 +15,7 @@ get_header();
 //////////////////  front-page.php //////////////
 ?>
 <section id="primary" class="content-area">
-	<main id="main" class="site-main">
-
+<main id="main" class="site-main">
 
 	<?php
 		$args = array( 'post_type' => 'page',
@@ -92,6 +93,33 @@ get_header();
 
 	</main><!-- #main -->
 </section><!-- #primary -->
+
+<script>
+		/*
+		Contrôler l'aspect de la case à cocher au clic sur les boutons
+		*/
+		
+		(function() { //IIFE
+			var leCheckBox = document.querySelector("input");
+			var lesBoutons = document.querySelectorAll(".site-navigation");
+			var leMenu = document.querySelectorAll("nav");
+			console.log(lesBoutons);
+			var nbBoutons = lesBoutons.length;		
+			for (var i = 0; i < nbBoutons; i++) {
+				lesBoutons[i].addEventListener("click", function() {
+					console.log(leCheckBox.checked);
+					document.getElementById(".site-navigation").style.transform = "translateX(100%)";
+					leCheckBox.checked = false;
+				}, false);
+			}
+
+
+		})(); //Fin IIFE
+
+		/* style.transform = "rotate(20deg)" */
+</script>
+
+
 
 <?php
 get_footer();
