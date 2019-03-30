@@ -29,7 +29,7 @@ get_header();
 				}else{
 					get_template_part( 'template-parts/content/content', 'single' );
 				}
-
+				
 
 				if ( is_singular( 'attachment' ) ) {
 					// Parent post navigation.

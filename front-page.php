@@ -15,10 +15,16 @@ get_header();
 <section id="primary" class="content-area">
 	<main id="main" class="site-main">
 
+
 	<?php
+		$args = array( 'post_type' => 'page',
+		'posts_per_page' => 1  );
+		$query = new WP_Query ( $args );
+
+
 		/* Start the Loop  La première boucle */
-		while ( have_posts() ) :
-			the_post();
+		while ( $query->have_posts() ) :
+			$query->the_post();
 			get_template_part( 'template-parts/content/content', 'page' );
 
 			// If comments are open or we have at least one comment, load up the comment template.

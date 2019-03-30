@@ -946,4 +946,15 @@ body.page .main-navigation {
   -webkit-animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
           animation-timing-function: cubic-bezier(1, 0.01, 0.91, 1.7);
 }
+
+.wp-block-media-text {
+  grid-template-columns: auto;
+}
+
+.single {
+background-color: #ffcaca;
+}
+
+
+
 /*# sourceMappingURL=style.css.map */
